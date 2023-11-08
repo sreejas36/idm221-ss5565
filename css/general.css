@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'montserratthin';
+    src: url('../fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratthin_italic';
+    src: url('../fonts/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefin_sansthin_italic';
+    src: url('../fonts/josefinsans-italic-variablefont_wght-webfont.woff') format('woff2'),
+        url('../fonts/josefinsans-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'josefin_sansthin';
+    src: url('../fonts/josefinsans-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/josefinsans-variablefont_wght-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+html{
+    --primary-text: #303030;
+    --secondary-text: #B0355F;
+    --main-background:#F34;
+}
+
+
+body{
+    margin: 0;
+    background-color: #fff;
+    font-family: 'josefin_sansthin';
+}
+
+.navigation{
+    height: 100%;
+    height: vh;
+    margin-bottom: 10rem;
+
+    text-align: center;
+    text-decoration: wavy;
+    background-color: #6F8ECB;
+
+}
+.project {
+    width: 100%;
+    max-width: 300 px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+} m,m,m,nb
+
+
+text-align: center;
