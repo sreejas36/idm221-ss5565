@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'montserrat';
-    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf'), format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -44,7 +44,7 @@ html{
 body{
     margin: 0;
     background-color: #fff;
-    font-family: 'montserrat';
+    font-family: 'montserratthin';
     /*'josefin_sans'*/
     
 }
@@ -77,3 +77,13 @@ body{
 }
 
 /*text-align: center;*/
+
+
+
+.title{
+    font-weight: bold;
+}
+
+.callback{
+    text-align: center;
+}
