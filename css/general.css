@@ -5,23 +5,23 @@
     font-style: normal;
 }
 
-/*
+
 @font-face {
-    font-family: 'montserratthin_italic';
-    src: url('../fonts/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
-        url('../fonts/montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+    font-family: 'montserratthin';
+    src: url('../fonts/montserrat-variablefont_wght-webfont.woff') format('woff2'),
+        url('../fonts/') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'josefin_sansthin_italic';
+    font-family: 'josefin_sansthin';
     src: url('../fonts/josefinsans-italic-variablefont_wght-webfont.woff') format('woff2'),
         url('../fonts/josefinsans-italic-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-*/
+
 
 @font-face {
     font-family: 'josefin_sans';
