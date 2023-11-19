@@ -57,6 +57,8 @@ body{
     text-align: center;
     text-decoration: wavy;
     background-color: #6F8ECB;
+    list-style: none;
+    padding: 0%;
 }
 
 .header{
@@ -87,3 +89,9 @@ body{
 .callback{
     text-align: center;
 }
+
+button {
+
+}
+
+.navigation
