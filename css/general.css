@@ -1,6 +1,15 @@
 @font-face {
+    font-family: 'laila';
+    src: url('../fonts/Laila-SemiBold.ttf'), format('truetype'),
+    url('../fonts/Laila-Medium.ttf'), format('truetype'),
+    url('../fonts/'), format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+@font-face {
     font-family: 'montserrat';
-    src: url('../fonts/Montserrat-VariableFont_wght.ttf'), format('ttf');
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf'), format('truetype'), 
+    url('../fonts/montserrat-variablefont_wght-webfont.woff2'), format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +22,7 @@
     font-weight: normal;
     font-style: normal;
 }
-
+/*
 @font-face {
     font-family: 'josefin_sansthin';
     src: url('../fonts/josefinsans-italic-variablefont_wght-webfont.woff') format('woff2'),
@@ -29,28 +38,31 @@
     font-weight: normal;
     font-style: normal;
 }
+*/
 
 css/general.css
 
 
 
 html{
-    --primary-text: #303030;
+    --primary-text: #FFF;
     --secondary-text: #B0355F;
     --main-background:#F34;
+    --text-link-before:#FFF
+    --text-link-after:#B0355F
 }
 
 
 body{
     margin: 0;
-    background-color: #fff;
+    background-color: #303030;
     font-family: 'montserratthin';
     /*'josefin_sans'*/
     
 }
 
 .navigation{
-    background-color: #6F8ECB;
+    background-color:#7973BA;
     color: #fff;
     height: 100%;
     height: vh;
@@ -108,9 +120,4 @@ button {
 
 .navigation-item{
     padding: 10%;
-    text
-}
-
-a:link{
-color: white;
 }
