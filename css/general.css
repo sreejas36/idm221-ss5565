@@ -43,133 +43,92 @@
 
 
 html{
+    --main-background:#303030;
     --primary-text: #FFF;
     --secondary-text: #B0355F;
-    --main-background:#303030;
+
     --text-link-before:#FFF
     --text-link-after:#B0355F
     --footer-background:#7973BA
     --button-color:#B0355F
 }
 
-
 body{
-    margin: 0;
     background-color: #303030;
     font-family: 'montserrat';
+    margin: 0;
     /*'josefin_sans'*/
-    
 }
 
-.navigation{
-    background-color:#7973BA;
-    color: #fff;
-    height: 100%;
-    height: vh;
-    /*link-color:white;*/
-    list-style: none;
-    margin-bottom: 10rem;
-    margin-top: 0%;
-    margin: 0 auto;
-    padding: 10%;
-    text-align: center;
-    text-decoration: wavy;
-
-}
-
-.greeting{
-    padding: 10%
-
-}
-
-.header{
-    font-variant:;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-weight:900;
-    color: #FFF;
-    font-family: 'laila';
-    font-size: xx-large;
-}
-
-.call-to-action{
-    font-variant:;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-weight:800;
-    color: #FFF;
-    font-family: 'laila';
-    font-size: x-large;
-}
-
-.subtitle{
+button {
+    background-color:white;
+    border: none;
+    border-radius: 55px;
+    color: var();
+    cursor: pointer;
     font-family: 'montserrat';
-    margin-left: 10%;
-    margin-right: 10%;
-    font-weight:900;
-    color: #FFF;
-}
-
-.project {
-    width: 100%;
-    max-width: 300 px;
-    margin-top: 50;
-    padding-top: 0rem;
-    text-align: center;
-    color: #FFF;
-} 
-
-.case-study-title {
-    font-family: 'montserrat';
-    font-size: large;
-}
-
-.footer{
-    margin-left: 10%;
-}
-
-/*text-align: center;*/
-
-
-
-.title{
-    font-weight: bold;
+    margin: .5rem .5rem;
+    padding: 17px 20px;
 }
 
 .callback{
     text-align: center;
 }
 
-button {
-    background-color:white;
-    color: var();
-    padding: 17px 20px;
-    border: none;
-    border-radius: 55px;
-    cursor: pointer;
-    margin: .5rem .5rem;
+.call-to-action {
+    color: #FFF;
+    font-family: 'laila';
+    font-size: x-large;
+    font-variant:small-caps;
+    font-weight:800;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    position: sticky;
+}
+
+.case-study-images{
+    height: auto;
+    width: 100%;
+}
+
+.case-study-title {
     font-family: 'montserrat';
+    font-size: large;
+}
+
+.content {
+    margin-left: 10;
+    margin-right: 10;
 }
 
 .footer{
     background-color: #7973BA;
     margin: auto;
+    margin-left: 10%;
     padding: 0 auto;
     text-align: center;
 }
 
-.navigation-item{
-    padding: 10%;
+.greeting{
+    margin-bottom: 60%;
+    margin-top: 60%;
 }
 
-.navigation-button{
-    background-color: #7973BA;
-    align-items: right;
+.header {
+    color: #FFF;
+    font-family: 'laila';
+    font-size: xx-large;
+    font-weight:900;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
 }
 
-.case-study-images{
-    width: 100%;
-    height: auto;
+.logo {
+    float: left;
+    position: relative;
+    width: 50px;
 }
 
 main {
@@ -177,12 +136,62 @@ main {
 }
 
 .me {
-    width: 80%;
     align-items: center;
+    padding: 10%;
+    width: 80%;
+}
+
+nav {
+    height: 5rem;
+}
+
+.navigation{
+    background-color:#7973BA;
+    color: #fff;
+    height: 100%;
+    height: vh;
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    margin-top: 0%;
+    padding: 5%;
+    text-align: center;
+    text-decoration: wavy;
+
+    /*link-color:white;*/
+}
+
+.navigation-button{
+    align-items: right;
+    background-color: #7973BA;
+    float: right;
+    position: relative;
+}
+
+.navigation-item{
     padding: 10%;
 }
 
-.content {
-    margin-left: 10;
-    margin-right: 10;
+.project {
+    color: #FFF;
+    margin-top: 50;
+    max-width: 300 px;
+    padding-top: 0rem;
+    text-align: center;
+    width: 100%;
+} 
+
+.subtitle {
+    color: #FFF;
+    font-family: 'montserrat';
+    font-weight:900;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+    
+}
+
+.title{
+    font-weight: bold;
 }
