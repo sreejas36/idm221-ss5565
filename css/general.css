@@ -56,7 +56,7 @@ html{
 a {
     text-decoration: none;
 }
-a:visited {
+a:link {
     color: #FFF;
 }
 
@@ -92,8 +92,7 @@ button {
     font-size: x-large;
     font-variant:small-caps;
     font-weight:800;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 40%;
     text-align: center;
     position: sticky;
 }
@@ -140,8 +139,7 @@ button {
 }
 
 .greeting{
-    margin-bottom: 60%;
-    margin-top: 60%;
+    margin-top: 35%;
 }
 
 .header {
@@ -226,7 +224,7 @@ nav {
 
 .project {
     color: #FFF;
-    margin-top: 50px;
+    margin-top: 15%;
     max-width: 100vw;
     padding-top: 0rem;
     text-align: center;
