@@ -55,9 +55,7 @@ html{
 
 a {
     text-decoration: none;
-}
-a:link {
-    color: #FFF;
+    color:#FFF
 }
 
 a:before {
@@ -68,7 +66,6 @@ body{
     background-color: #303030;
     font-family: 'montserrat';
     margin: 0;
-    /*'josefin_sans'*/
 }
 
 button {
@@ -80,6 +77,12 @@ button {
     margin: .5rem .5rem;
     padding: 17px 20px;
     border: #B0355F;
+    align-items: center;
+}
+
+.button-text {
+    color: #FFF;
+    align-items: center;
 }
 
 .callback{
@@ -128,6 +131,8 @@ button {
     color: #FFF;
     text-align: center;
     padding: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .footer{
@@ -161,6 +166,10 @@ button {
     text-align: center;
 }
 
+.icons {
+    padding: 2%;
+}
+
 .logo {
     float: left;
     position: relative;
@@ -188,7 +197,7 @@ nav {
     height: 11vh;
     list-style: none;
     margin: 0 auto;
-    margin-bottom: 30rem;
+    margin-bottom: 0;
     margin-top: 0%;
     padding: 10%;
     text-align: center;
@@ -212,16 +221,19 @@ nav {
     list-style: none;
     color: #FFF;
     background-color: #7973BA;
+    margin-bottom: 0;
 
 }
 
 .navigation-menu {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     margin-left: 0;
     padding-left: 0;
     text-align: center;
     min-height: 100%;
     margin-top: 10%;
+    min-height: 10%;
 }
 
 .nav_page{
@@ -242,6 +254,14 @@ nav {
     width: 100%;
 } 
 
+.project-page {
+    color: #FFF;
+    margin-top: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+    max-width: 100vh;
+}
+
 .subtitle {
     color: #FFF;
     font-family: 'montserrat';
@@ -255,6 +275,8 @@ nav {
 
 .title{
     font-weight: bold;
+    font-family: 'laila';
+    margin-top: 15%;
 }
 
 
