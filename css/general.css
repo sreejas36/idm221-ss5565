@@ -57,11 +57,11 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: #B0355F;
+    color: #FFF;
 }
 
 a:before {
-    color: #B0355F;
+    color: #FFF;
 }
 
 body{
@@ -72,7 +72,7 @@ body{
 }
 
 button {
-    background-color:white;
+    background-color:#B0355F;
     border: none;
     border-radius: 55px;
     cursor: pointer;
@@ -176,14 +176,15 @@ nav {
 .navigation{
     background-color:#7973BA;
     color: #FFF;
-    height: 100%;
+    height: 10vh;
     list-style: none;
     margin: 0 auto;
-    margin-bottom: 10rem;
+    margin-bottom: 30rem;
     margin-top: 0%;
-    padding: 5%;
+    padding: 10%;
     text-align: center;
-    text-decoration: wavy;
+    margin-left: 0%;
+
 
     /*link-color:white;*/
 }
@@ -198,12 +199,29 @@ nav {
 .navigation-item{
     font-size: larger;
     height: 100%;
-    padding: 15%;
+    padding: 13%;
     list-style: none;
+    color: #FFF;
+    background-color: #7973BA;
+
 }
 
-#navigation-menu {
-    padding: 30%;
+.navigation-menu {
+    margin: 0 auto;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    min-height: 100%;
+    margin-top: 10%;
+}
+
+.nav_page{
+    background-color:#7973BA;
+    color: #FFF;
+    text-align: center;
+    min-height: 100%;
+    margin-top: 16%;
+    margin-bottom: 15%;
 }
 
 .project {
