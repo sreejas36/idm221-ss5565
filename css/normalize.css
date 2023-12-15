@@ -324,26 +324,26 @@
   /*
    * Add the correct display in all browsers.
    */
-  
-  summary {
+
+summary {
     display: list-item;
-  }
-  
-  /* Misc
+}
+
+/* Misc
      ========================================================================== */
-  
-  /**
+
+/**
    * Add the correct display in IE 10+.
    */
-  
-  template {
+
+template {
     display: none;
-  }
-  
-  /**
+}
+
+/**
    * Add the correct display in IE 10.
    */
-  
-  [hidden] {
+
+[hidden] {
     display: none;
-  }
+}
