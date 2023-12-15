@@ -46,13 +46,6 @@ html{
     --main-background:#303030;
     --primary-text: #FFF;
     --secondary-text: #B0355F;
-
-    --text-link-before:#FFF
-    --text-link-after:#B0355F
-    --footer-background:#7973BA
-    --button-color:#B0355F
-    
-
 }
 
 a {
@@ -123,7 +116,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: baseline;
 }
 
 .connect {
@@ -228,7 +220,6 @@ nav {
 
 .navigation-button{
     background-color: #7973BA;
-    align-items: right;
     float: right;
 }
 
