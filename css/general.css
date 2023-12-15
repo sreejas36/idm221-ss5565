@@ -51,7 +51,8 @@ html{
     --text-link-after:#B0355F
     --footer-background:#7973BA
     --button-color:#B0355F
-    height: 100%;
+    
+
 }
 
 a {
@@ -65,22 +66,23 @@ a:before {
 
 body{
     background-color: #303030;
-    font-family: 'montserrat';
+    font-family: 'montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     height: 100%;
 
 }
 
-button {
+.button {
     background-color:#B0355F;
     border: none;
     border-radius: 55px;
     cursor: pointer;
-    font-family: 'montserrat';
+    font-family: 'montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: .5rem .5rem;
     padding: 17px 20px;
     border: #B0355F;
     align-items: center;
+    justify-content: center;
 }
 
 .button-text {
@@ -94,7 +96,7 @@ button {
 
 .call-to-action {
     color: #FFF;
-    font-family: 'laila';
+    font-family: 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     font-variant:small-caps;
     font-weight:800;
@@ -107,18 +109,26 @@ button {
     height: auto;
     width: 100%;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .case-study-title {
-    font-family: 'montserrat';
+    font-family: 'montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     margin-top: 10%;
     margin-bottom: 15%;
 }
 
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
 .connect {
     color: #FFF;
-    font-family: 'laila';
+    font-family: 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     font-weight:800;
     text-align: center;
@@ -152,7 +162,7 @@ button {
 
 .header {
     color: #FFF;
-    font-family: 'laila';
+    font-family: 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large; /* pixel convert*/
     margin-left: 10%;
     margin-right: 10%;
@@ -161,7 +171,7 @@ button {
 
 .hi {
     color: #FFF;
-    font-family: 'laila';
+    font-family: 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large; /* pixel convert*/
     margin-left: 10%;
     margin-right: 10%;
@@ -252,6 +262,10 @@ nav {
     margin-bottom: 15%;
 }
 
+p {
+    widows: 2;
+    orphans: 2;
+}
 .project {
     color: #FFF;
     margin-top: 20%;
@@ -265,13 +279,20 @@ nav {
     color: #FFF;
     margin-top: 30%;
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 10%;
+    max-width: 100vh;
+}
+
+.project-p {
+    color: #FFF;
+    margin-left: 10%;
+    margin-right: 10%;
     max-width: 100vh;
 }
 
 .subtitle {
     color: #FFF;
-    font-family: 'montserrat';
+    font-family: 'montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:900;
     margin-left: 15%;
     margin-right: 15%;
@@ -282,7 +303,7 @@ nav {
 
 .title{
     font-weight: bold;
-    font-family: 'laila';
+    font-family: 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 15%;
 }
 
