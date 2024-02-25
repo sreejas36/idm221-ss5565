@@ -136,7 +136,7 @@ body{
 
 .connect {
     color: #FFF;
-    font-family: 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'montserrat', 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     font-weight:800;
     text-align: center;
@@ -170,7 +170,7 @@ body{
 
 .header {
     color: #FFF;
-    font-family: 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'montserrat', 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large; /* pixel convert*/
     margin-left: 10%;
     margin-right: 10%;
@@ -179,7 +179,7 @@ body{
 
 .hi {
     color: #FFF;
-    font-family: 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'montserrat', 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large; /* pixel convert*/
     margin-left: 10%;
     margin-right: 10%;
@@ -299,7 +299,7 @@ p {
 
 .subheading{
     font-weight: bold;
-    font-family: 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'montserrat', 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .subtitle {
@@ -315,7 +315,7 @@ p {
 
 .title{
     font-weight: bold;
-    font-family: 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'montserrat', 'altona', 'laila', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 15%;
 }
 
